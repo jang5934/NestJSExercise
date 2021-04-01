@@ -6,6 +6,9 @@
 ## Description
 This is a practice space for using nestjs.
 
+## Course completion
+https://github.com/jang5934/NestJSExercise/blob/master/certificate-of-completion-for-nestjs-fundamentals.pdf
+
 ## License
 
 Nest is [MIT licensed](LICENSE).
