@@ -1,0 +1,29 @@
+version: "3"
+services:
+  db:
+    container_name: postgres_container
+    image:  postgres
+    restart: always 
+    ports:
+      - "5432:5432"
+    environment:
+       POSTGRES_PASSWORD: pass123
+  pgadmin:
+    container_name: pgadmin_container
+    image:  dpage/pgadmin4
+    restart: always 
+    ports:
+      - "8088:80"
+    environment:
+     - PGADMIN_DEFAULT_EMAIL=jang5934@gmail.com
+     - PGADMIN_DEFAULT_PASSWORD=pass123
+  test-db:
+    image: postgres
+    restart: always
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_PASSWORD: pass123
+networks:
+  postgres:
+    driver: bridge
