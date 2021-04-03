@@ -4,7 +4,7 @@
 
 
 ## Description
-This is a practice space repository for using nestjs.
+Here is a practice space repository for using nestjs.
 
 ## Course completion
 https://github.com/jang5934/NestJSExercise/blob/master/certificate-of-completion-for-nestjs-fundamentals.pdf
